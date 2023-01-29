@@ -106,45 +106,6 @@
 		},
 		{
 			"alignment" : "center",
-			"alpha" : 0.0,
-			"angles" : "0.00000 0.00000 0.00000",
-			"brightness" : 1.0,
-			"color" : "1.00000 1.00000 1.00000",
-			"colorBlendMode" : 0,
-			"copybackground" : true,
-			"id" : 291,
-			"image" : "models/solid_instance_model_5f4bfb7c.json",
-			"instance" : 
-			{
-				"combos" : 
-				{
-					"version" : 2
-				},
-				"id" : 294,
-				"textures" : [ "util/white" ]
-			},
-			"ledsource" : false,
-			"locktransforms" : false,
-			"name" : "P1 Boop Right",
-			"origin" : "336.72675 287.78488 0.00000",
-			"parallaxDepth" : "1.00000 1.00000",
-			"perspective" : false,
-			"scale" : "0.20000 0.20000 0.20000",
-			"size" : "256.00000 256.00000",
-			"solid" : true,
-			"visible" : 
-			{
-				"script" : "'use strict';\nconst SOUND_LAYER_NAME = 'Boop';\nexport function cursorClick(event) {\n\tthisScene.getLayer(SOUND_LAYER_NAME).play();\n}\n",
-				"user" : 
-				{
-					"condition" : "1",
-					"name" : "puroimages"
-				},
-				"value" : false
-			}
-		},
-		{
-			"alignment" : "center",
 			"alpha" : 1.0,
 			"angles" : "0.00000 0.00000 0.00000",
 			"brightness" : 1.0,
@@ -170,6 +131,45 @@
 					"name" : "puroleft"
 				},
 				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 291,
+			"image" : "models/solid_instance_model_5f4bfb7c.json",
+			"instance" : 
+			{
+				"combos" : 
+				{
+					"version" : 2
+				},
+				"id" : 294,
+				"textures" : [ "util/white" ]
+			},
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "P1 Boop Right",
+			"origin" : "864.71362 287.78488 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.20000 0.20000 0.20000",
+			"size" : "256.00000 256.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\nconst SOUND_LAYER_NAME = 'Boop';\nexport function cursorClick(event) {\n\tthisScene.getLayer(SOUND_LAYER_NAME).play();\n}\n",
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "puroimages"
+				},
+				"value" : false
 			}
 		},
 		{
@@ -263,45 +263,6 @@
 		},
 		{
 			"alignment" : "center",
-			"alpha" : 0.0,
-			"angles" : "0.00000 0.00000 0.00000",
-			"brightness" : 1.0,
-			"color" : "1.00000 1.00000 1.00000",
-			"colorBlendMode" : 0,
-			"copybackground" : true,
-			"id" : 292,
-			"image" : "models/solid_instance_model_5f4bfb7c.json",
-			"instance" : 
-			{
-				"combos" : 
-				{
-					"version" : 2
-				},
-				"id" : 293,
-				"textures" : [ "util/white" ]
-			},
-			"ledsource" : false,
-			"locktransforms" : false,
-			"name" : "P2 Boop Left",
-			"origin" : "259.95013 368.10510 0.00000",
-			"parallaxDepth" : "1.00000 1.00000",
-			"perspective" : false,
-			"scale" : "0.20000 0.20000 0.20000",
-			"size" : "256.00000 256.00000",
-			"solid" : true,
-			"visible" : 
-			{
-				"script" : "'use strict';\nconst SOUND_LAYER_NAME = 'Boop';\nexport function cursorClick(event) {\n\tthisScene.getLayer(SOUND_LAYER_NAME).play();\n}\n",
-				"user" : 
-				{
-					"condition" : "2",
-					"name" : "puroleft"
-				},
-				"value" : false
-			}
-		},
-		{
-			"alignment" : "center",
 			"alpha" : 1.0,
 			"angles" : "0.00000 0.00000 0.00000",
 			"brightness" : 1.0,
@@ -366,6 +327,45 @@
 					"name" : "puroimages"
 				},
 				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 292,
+			"image" : "models/solid_instance_model_5f4bfb7c.json",
+			"instance" : 
+			{
+				"combos" : 
+				{
+					"version" : 2
+				},
+				"id" : 293,
+				"textures" : [ "util/white" ]
+			},
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "P2 Boop Left",
+			"origin" : "259.95013 368.10510 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.20000 0.20000 0.20000",
+			"size" : "256.00000 256.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\nconst SOUND_LAYER_NAME = 'Boop';\nexport function cursorClick(event) {\n\tthisScene.getLayer(SOUND_LAYER_NAME).play();\n}\n",
+				"user" : 
+				{
+					"condition" : "2",
+					"name" : "puroleft"
+				},
+				"value" : false
 			}
 		},
 		{
