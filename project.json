@@ -8,56 +8,62 @@
 		{
 			"audiofrequency" : 
 			{
+				"condition" : "settingscategory.value == \"rings\"",
 				"fraction" : true,
-				"index" : 1,
+				"index" : 8,
 				"max" : 1,
 				"min" : 0,
-				"order" : 101,
+				"order" : 108,
 				"precision" : 2,
 				"step" : 0.1,
-				"text" : "Audio Ring Frequency",
+				"text" : "Ring Audio Frequency",
 				"type" : "slider",
 				"value" : 0
 			},
 			"enablechroma" : 
 			{
-				"index" : 0,
-				"order" : 100,
+				"condition" : "settingscategory.value == \"other\"",
+				"index" : 11,
+				"order" : 111,
 				"text" : "Enable Chroma",
 				"type" : "bool",
 				"value" : true
 			},
 			"enablelensdistarsiononbeat" : 
 			{
-				"index" : 6,
-				"order" : 106,
+				"condition" : "settingscategory.value == \"scr_effects\"",
+				"index" : 5,
+				"order" : 105,
 				"text" : "Lens Beat",
 				"type" : "bool",
 				"value" : false
 			},
 			"enablergbbeat" : 
 			{
-				"index" : 7,
-				"order" : 107,
+				"condition" : "settingscategory.value == \"scr_effects\"",
+				"index" : 6,
+				"order" : 106,
 				"text" : "RGB Beat",
 				"type" : "bool",
 				"value" : true
 			},
 			"glitterenable" : 
 			{
-				"index" : 3,
-				"order" : 103,
+				"condition" : "settingscategory.value == \"scr_effects\"",
+				"index" : 4,
+				"order" : 104,
 				"text" : "Enable Glitter",
 				"type" : "bool",
 				"value" : true
 			},
 			"littlepurospinspeed" : 
 			{
+				"condition" : "settingscategory.value == \"rings\"",
 				"fraction" : true,
-				"index" : 2,
+				"index" : 10,
 				"max" : 1,
 				"min" : 0,
-				"order" : 102,
+				"order" : 110,
 				"precision" : 2,
 				"step" : 0.1,
 				"text" : "Little Puro Spin Speed",
@@ -66,16 +72,17 @@
 			},
 			"newproperty" : 
 			{
-				"condition" : "",
-				"index" : 8,
-				"order" : 108,
+				"condition" : "settingscategory.value == \"scr_effects\"",
+				"index" : 3,
+				"order" : 103,
 				"text" : "Enable Bloom",
 				"type" : "bool",
 				"value" : false
 			},
 			"puroimages" : 
 			{
-				"index" : 11,
+				"condition" : "settingscategory.value == \"layout\"",
+				"index" : 2,
 				"options" : 
 				[
 					{
@@ -87,14 +94,15 @@
 						"value" : "2"
 					}
 				],
-				"order" : 111,
+				"order" : 102,
 				"text" : "Puro Right",
 				"type" : "combo",
 				"value" : "2"
 			},
 			"puroleft" : 
 			{
-				"index" : 10,
+				"condition" : "settingscategory.value == \"layout\"",
+				"index" : 1,
 				"options" : 
 				[
 					{
@@ -106,18 +114,19 @@
 						"value" : "2"
 					}
 				],
-				"order" : 110,
+				"order" : 101,
 				"text" : "Puro Left",
 				"type" : "combo",
 				"value" : "1"
 			},
 			"rainbowbarheight" : 
 			{
+				"condition" : "settingscategory.value == \"other\"",
 				"fraction" : true,
-				"index" : 5,
+				"index" : 12,
 				"max" : 25,
 				"min" : -25,
-				"order" : 105,
+				"order" : 112,
 				"precision" : 2,
 				"step" : 0.1,
 				"text" : "Rainbow bar height",
@@ -126,19 +135,21 @@
 			},
 			"ringcolor" : 
 			{
-				"index" : 9,
-				"order" : 109,
+				"condition" : "settingscategory.value == \"rings\"",
+				"index" : 7,
+				"order" : 107,
 				"text" : "Ring Color",
 				"type" : "color",
 				"value" : "1 1 1"
 			},
 			"ringresponsivnes" : 
 			{
+				"condition" : "settingscategory.value == \"rings\"",
 				"fraction" : true,
-				"index" : 4,
+				"index" : 9,
 				"max" : 25,
 				"min" : 0,
-				"order" : 104,
+				"order" : 109,
 				"precision" : 2,
 				"step" : 0.1,
 				"text" : "Ring Responsivnes",
@@ -152,6 +163,33 @@
 				"text" : "ui_browse_properties_scheme_color",
 				"type" : "color",
 				"value" : "0 0 0"
+			},
+			"settingscategory" : 
+			{
+				"index" : 0,
+				"options" : 
+				[
+					{
+						"label" : "Layout",
+						"value" : "layout"
+					},
+					{
+						"label" : "Screen effects",
+						"value" : "scr_effects"
+					},
+					{
+						"label" : "Rings",
+						"value" : "rings"
+					},
+					{
+						"label" : "Other",
+						"value" : "other"
+					}
+				],
+				"order" : 100,
+				"text" : "Settings category",
+				"type" : "combo",
+				"value" : "layout"
 			}
 		},
 		"supportsaudioprocessing" : true
