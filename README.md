@@ -1,13 +1,12 @@
 # Cute Puro Wallpaper (Wallpaper Engine)
-
-
 <div align="center">
+
+Based on: https://steamcommunity.com/sharedfiles/filedetails/?id=2904739230  
 
 <img width="37%" src="preview1.png">
 <img width="23%" src="preview.gif">
 <img width="37%" src="preview2.jpg">
 
-Based on: https://steamcommunity.com/sharedfiles/filedetails/?id=2904739230
 
 </div>
 
