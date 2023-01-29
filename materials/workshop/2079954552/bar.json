@@ -1,0 +1,19 @@
+{
+	"passes" : 
+	[
+		{
+			"alphawriting" : "default",
+			"blending" : "translucent",
+			"constantshadervalues" : 
+			{
+				"Alpha" : 1,
+				"Brightness" : 0
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericimage2",
+			"textures" : [ "workshop/2079954552/bar" ]
+		}
+	]
+}

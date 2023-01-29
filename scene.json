@@ -1,0 +1,1063 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.28627 0.28627 0.28627",
+		"bloom" : 
+		{
+			"user" : "newproperty",
+			"value" : false
+		},
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999998,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.00000 0.00000 0.00000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 675,
+			"width" : 1200
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 350,
+			"image" : "models/55f552bce1b1ed0ec27fc8f5822277c5.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "--- Puro 1 ---",
+			"origin" : "222.44693 252.76797 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.00000 0.00000 1.00000",
+			"size" : "1476.00000 1509.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "puroleft"
+				},
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 97,
+			"image" : "models/55f552bce1b1ed0ec27fc8f5822277c5.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Puro1 Right",
+			"origin" : "978.68042 250.64966 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.30000 0.30000 1.00000",
+			"size" : "1476.00000 1509.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "puroimages"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 291,
+			"image" : "models/solid_instance_model_5f4bfb7c.json",
+			"instance" : 
+			{
+				"combos" : 
+				{
+					"version" : 2
+				},
+				"id" : 294,
+				"textures" : [ "util/white" ]
+			},
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "P1 Boop Right",
+			"origin" : "336.72675 287.78488 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.20000 0.20000 0.20000",
+			"size" : "256.00000 256.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\nconst SOUND_LAYER_NAME = 'Boop';\nexport function cursorClick(event) {\n\tthisScene.getLayer(SOUND_LAYER_NAME).play();\n}\n",
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "puroimages"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 113,
+			"image" : "models/55f552bce1b1ed0ec27fc8f5822277c5.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Puro1 Left",
+			"origin" : "222.44693 252.76797 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "-0.30000 0.30000 1.00000",
+			"size" : "1476.00000 1509.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "puroleft"
+				},
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 115,
+			"image" : "models/solid_instance_model_5f4bfb7c.json",
+			"instance" : 
+			{
+				"combos" : 
+				{
+					"version" : 2
+				},
+				"id" : 116,
+				"textures" : [ "util/white" ]
+			},
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "P1 Boop Left",
+			"origin" : "336.72675 287.78488 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.20000 0.20000 0.20000",
+			"size" : "256.00000 256.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\nconst SOUND_LAYER_NAME = 'Boop';\nexport function cursorClick(event) {\n\tthisScene.getLayer(SOUND_LAYER_NAME).play();\n}\n",
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "puroleft"
+				},
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 338,
+			"image" : "models/2HCAAOU.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "--- Puro 2 ---",
+			"origin" : "600.00000 337.50000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.00000 0.00000 1.00000",
+			"size" : "1200.00000 675.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 93,
+			"image" : "models/2HCAAOU.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Puro2 Right",
+			"origin" : "611.31543 358.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1200.00000 675.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "2",
+					"name" : "puroimages"
+				},
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 292,
+			"image" : "models/solid_instance_model_5f4bfb7c.json",
+			"instance" : 
+			{
+				"combos" : 
+				{
+					"version" : 2
+				},
+				"id" : 293,
+				"textures" : [ "util/white" ]
+			},
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "P2 Boop Left",
+			"origin" : "259.95013 368.10510 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.20000 0.20000 0.20000",
+			"size" : "256.00000 256.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\nconst SOUND_LAYER_NAME = 'Boop';\nexport function cursorClick(event) {\n\tthisScene.getLayer(SOUND_LAYER_NAME).play();\n}\n",
+				"user" : 
+				{
+					"condition" : "2",
+					"name" : "puroleft"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 335,
+			"image" : "models/2HCAAOU.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Puro2 Left",
+			"origin" : "611.31543 358.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "-1.00000 1.00000 1.00000",
+			"size" : "1200.00000 675.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "2",
+					"name" : "puroleft"
+				},
+				"value" : false
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 298,
+			"image" : "models/solid_instance_model_5f4bfb7c.json",
+			"instance" : 
+			{
+				"combos" : 
+				{
+					"version" : 2
+				},
+				"id" : 299,
+				"textures" : [ "util/white" ]
+			},
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "P2 Boop Right",
+			"origin" : "966.29504 370.46747 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.20000 0.20000 0.20000",
+			"size" : "256.00000 256.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\nconst SOUND_LAYER_NAME = 'Boop';\nexport function cursorClick(event) {\n\tthisScene.getLayer(SOUND_LAYER_NAME).play();\n}\n",
+				"user" : 
+				{
+					"condition" : "2",
+					"name" : "puroimages"
+				},
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 224,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : false,
+			"name" : "Boop",
+			"origin" : "595.84271 426.34869 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "single",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/Duck Toy Squeak - Sound Effect (HD).mp3" ],
+			"startsilent" : true,
+			"volume" : 0.5
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : 
+			{
+				"user" : "ringcolor",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/workshop/2849937523/godrays/effect.json",
+					"id" : 336,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.40000001,
+								"noisescale" : 3,
+								"noisesmoothness" : 0.2,
+								"noisespeed" : 0.15000001,
+								"raythreshold" : 0.5
+							},
+							"id" : 0
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"center" : "0.5 0.5",
+								"color" : "0 0 0",
+								"rayintensity" : 1,
+								"raylength" : 0.5
+							},
+							"id" : 339
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 340
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 341
+						},
+						{
+							"id" : 342
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/workshop/2849937523/godrays/effect.json",
+					"id" : 344,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.56999999,
+								"noisescale" : 3,
+								"noisesmoothness" : 0.2,
+								"noisespeed" : 0.15000001,
+								"raythreshold" : 0.5
+							},
+							"id" : 345
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"center" : "0.5 0.5",
+								"color" : "1 1 1",
+								"rayintensity" : 1,
+								"raylength" : 0.92000002
+							},
+							"id" : 346
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 347
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 348
+						},
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 29
+							},
+							"id" : 349
+						}
+					],
+					"visible" : false
+				},
+				{
+					"file" : "effects/workshop/2849937523/pulse/effect.json",
+					"id" : 351,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 1,
+								"bounds" : "0 1",
+								"noiseamount" : 0,
+								"noisespeed" : 0.5,
+								"phase" : 0.0,
+								"power" : 1.0,
+								"speed" : 3.0,
+								"tinthigh" : "1 1 1",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 352
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/workshop/2849937523/shine/effect.json",
+					"id" : 354,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.40000001,
+								"noisescale" : 3.0,
+								"noisespeed" : 0.15000001,
+								"raythreshold" : 0.5
+							},
+							"id" : 355
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"color" : "1.00000 1.00000 1.00000",
+								"direction" : 0.0,
+								"rayintensity" : 0.1,
+								"raylength" : 1,
+								"speed" : 0.0
+							},
+							"id" : 356
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 357
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "1 1"
+							},
+							"id" : 358
+						},
+						{
+							"id" : 359
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/workshop/2849937523/transform/effect.json",
+					"id" : 360,
+					"name" : "比例",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"CLAMP" : 0,
+								"MODE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"angle" : 0,
+								"offset" : "0 0",
+								"scale" : "0.5 0.5"
+							},
+							"id" : 361
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 333,
+			"image" : "models/workshop/2849937523/圈.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Audio Ring",
+			"origin" : "600.00000 337.50000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2849937523';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 
+					{
+						"user" : "audiofrequency",
+						"value" : 6
+					},
+					"maxvalue" : 1.6,
+					"minvalue" : 0.80000001,
+					"smoothing" : 
+					{
+						"user" : "ringresponsivnes",
+						"value" : 
+						{
+							"user" : "audioresponse",
+							"value" : 25
+						}
+					}
+				},
+				"value" : "4.00000 4.00000 4.00000"
+			},
+			"size" : "256.00000 256.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\n\nfunction toggleLayer() {\nif (layerEnabled) {\n// disable layer\ncanvas.style.display = \"none\";\nlayerEnabled = false;\n} else {\n// enable layer\ncanvas.style.display = \"block\";\nlayerEnabled = true;\n}\n}",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : 
+			{
+				"script" : "'use strict';\n/** Bind this script to the \"Angles\" property of a layer for a simple 2D rotation. */\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport let scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'speed',\n\t\tlabel: 'ui_editor_properties_speed',\n\t\tvalue: 0.1,\n\t\tmin: -1,\n\t\tmax: 1,\n\t\tinteger: false\n\t}).finish();\n\n/**\n * @param {Vec3} value\n */\nexport function update(value) {\n\tvalue.z = (engine.runtime * scriptProperties.speed) % 1.0 * 360;\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"speed" : 
+					{
+						"user" : "littlepurospinspeed",
+						"value" : 0.1
+					}
+				},
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 35,
+			"image" : "models/puro.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "puro",
+			"origin" : "600.00000 337.50000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/**\n * Configure these to control smoothing and the frequency.\n */\nlet frequencyResolution = 64; // Must be 16, 32 or 64 per channel.\nlet sourceFrequency = 0; // Must be smaller than frequencyResolution. Lower values for bass, higher for treble.\nlet smoothingRate = 10;\n\n/**\n * This creates a permanent link to the audio response data.\n */\nlet audioBuffer = engine.registerAudioBuffers(frequencyResolution);\nvar smoothValue = 0;\nvar scale;\n\n/**\n * @param {Vec3} value\n */\nexport function update() {\n\tlet audioDelta = audioBuffer.average[sourceFrequency] - smoothValue;\n\tsmoothValue += audioDelta * engine.frametime * smoothingRate;\n\tsmoothValue = Math.min(1.0, smoothValue);\n\tscale.y = 0.1 + (smoothValue * 0.275)\n\tscale.x = 0.1 + (smoothValue * 0.375);\n\treturn scale;\n}\n\n/**\n * @param {Vec3} value\n */\nexport function init(value) {\n\tscale = value;\n}\n",
+				"value" : "0.20000 0.20000 0.20000"
+			},
+			"size" : "500.00000 500.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 0.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 221,
+			"image" : "models/solid_instance_model_5f4bfb7c.json",
+			"instance" : 
+			{
+				"combos" : 
+				{
+					"version" : 2
+				},
+				"id" : 222,
+				"textures" : [ "util/white" ]
+			},
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Boop Center",
+			"origin" : "602.13202 338.67044 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.20000 0.20000 0.20000",
+			"size" : "256.00000 256.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\nconst SOUND_LAYER_NAME = 'Boop';\nexport function cursorClick(event) {\n\tthisScene.getLayer(SOUND_LAYER_NAME).play();\n}\n",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "0.00000 0.00000 0.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 54,
+			"image" : "models/workshop/2079954552/bar.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "bar set origin (x-15 y0)",
+			"origin" : "-0.09650 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.10000 0.10000 0.10000",
+			"size" : "4.00000 4.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2079954552';\n \nvar bars = [];\nvar baseOrigin;\nvar baseAngle;\nlet audioData = engine.registerAudioBuffers(64);\n \n/**\n * @param {Boolean} value (for property 'visible')\n */\nexport function update() {\n    var origin = baseOrigin.copy();\n    var scale = new Vec3(6);/* edit this value for bar width, for horizontal 6 for vertical 3*/\n \n    for (var i = 0; i < 64; ++i) {\n        let amt = audioData.average[i];\n        let bar = bars[i];\n \n        scale.y = amt * 100;\n        origin.x += 30;/*edit this value for horizontal bar spacing, for horizontal bar 30 for vertical 0*/\n        origin.y += 0; /*edit this value for Vertical bar spacing, for Vertical bar 17 for horizontal 0 */\n        bar.scale = scale;\n        bar.origin = origin;\n \n    }\n}\n \n/**\n * @param {Boolean} value (for property 'visible')\n */\nexport function init() {\n    bars.push(thisLayer);\n    let thisIndex = thisScene.getLayerIndex(thisLayer);\n    for (var i = 1; i < 64; ++i) {\n        let newBar = thisScene.createLayer('models/workshop/2079954552/bar.json');\n        thisScene.sortLayer(newBar, thisIndex);\n        newBar.parallaxDepth = new Vec2(0,0);\n        bars.push(newBar);\n    }\n \n    for (var i = 0; i < 64; ++i) {\n        let angle = 360 * (i / 64);\n        let bar = bars[i];\n        bar.angles = new Vec3(0, 0, 0); /* this controls bar rotation, the 3rd value is the rotation to change, for horizontal bar 0 for vertical 90*/\n \n \n    }\n    baseOrigin = thisLayer.origin;\n \n}\n",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/workshop/2818296808/lens_distorsion/effect.json",
+					"id" : 80,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"TYPE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"Center" : "0.5 0.5",
+								"Chromatic aberration" : 0,
+								"Distorsion 1" : -0.14,
+								"Distorsion 2" : 0,
+								"Focus length" : 1,
+								"General" : 
+								{
+									"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2818296808';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n/**\n * Configure these to control smoothing and the frequency.\n */\nlet frequencyResolution = 64; // Must be 16, 32 or 64 per channel.\nlet sourceFrequency = 1; // Must be smaller than frequencyResolution. Lower values for bass, higher for treble.\nlet smoothingRate = 16;\nlet minimumValue = 0;\nlet maximumValue = 1;\n\n/**\n * This creates a permanent link to the audio response data.\n */\nlet audioBuffer = engine.registerAudioBuffers(frequencyResolution);\nvar smoothValue = 0;\nvar initialValue;\nconst valueDelta = maximumValue - minimumValue;\n\n/**\n */\nexport function update() {\n\tlet audioDelta = audioBuffer.average[sourceFrequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * engine.frametime * smoothingRate;\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + minimumValue);\n}\n\n/**\n */\nexport function init(value) {\n\tinitialValue = value;\n}\n",
+									"value" : 1
+								},
+								"Zoom" : 0.87
+							},
+							"id" : 81
+						}
+					],
+					"visible" : 
+					{
+						"user" : "enablelensdistarsiononbeat",
+						"value" : false
+					}
+				},
+				{
+					"file" : "effects/workshop/2818296808/vhs/effect.json",
+					"id" : 82,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"INVERTARTIFACTS" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"artifacts" : 3,
+								"chromatic" : 1,
+								"distortionspeed" : 0,
+								"distortionstrength" : 0,
+								"distortionwidth" : 0,
+								"scale" : 0,
+								"strength" : 
+								{
+									"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2818296808';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n/**\n * Configure these to control smoothing and the frequency.\n */\nlet frequencyResolution = 64; // Must be 16, 32 or 64 per channel.\nlet sourceFrequency = 1; // Must be smaller than frequencyResolution. Lower values for bass, higher for treble.\nlet smoothingRate = 16;\nlet minimumValue = 0;\nlet maximumValue = 2;\n\n/**\n * This creates a permanent link to the audio response data.\n */\nlet audioBuffer = engine.registerAudioBuffers(frequencyResolution);\nvar smoothValue = 0;\nvar initialValue;\nconst valueDelta = maximumValue - minimumValue;\n\n/**\n */\nexport function update() {\n\tlet audioDelta = audioBuffer.average[sourceFrequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * engine.frametime * smoothingRate;\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + minimumValue);\n}\n\n/**\n */\nexport function init(value) {\n\tinitialValue = value;\n}\n",
+									"value" : 1
+								}
+							},
+							"id" : 83
+						}
+					],
+					"visible" : 
+					{
+						"user" : "enablergbbeat",
+						"value" : true
+					}
+				}
+			],
+			"id" : 79,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Hyperdrive Mode (PLACE IN FRONT OF ALL HYPERDRIVE EFFECTS)",
+			"parallaxDepth" : "0.00000 0.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\nfunction toggleLayer() {\nif (enablechroma) {\n// disable layer\ncanvas.style.display = \"none\";\nenablechroma = false;\n} else {\n// enable layer\ncanvas.style.display = \"block\";\nenablechroma = true;\n}\n}",
+				"user" : "enablechroma",
+				"value" : true
+			}
+		},
+		{
+			"alpha" : 1.0,
+			"anchor" : "none",
+			"angles" : "-0.00000 -0.79215 0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"font" : "systemfont_arial",
+			"horizontalalign" : "center",
+			"id" : 24,
+			"ledsource" : false,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"locktransforms" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Framerate Layer",
+			"opaquebackground" : false,
+			"origin" : "66.49976 654.12592 -577.22156",
+			"padding" : 32,
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"pointsize" : 32.0,
+			"scale" : "0.20000 0.20000 1.00000",
+			"size" : "808.00000 153.00000",
+			"solid" : true,
+			"text" : 
+			{
+				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frametimeout',\n\t\tlabel: 'Update rate (ms)',\n\t\tvalue: 50,\n\t\tmin: 1,\n\t\tmax: 2000,\n\t\tinteger: true\n\t})\n\t.addCheckbox({\n\t\tname: 'warning',\n\t\tlabel: 'Only display below 20 FPS',\n\t\tvalue: false\n\t})\n\t.addCheckbox({\n\t\tname: 'enable',\n\t\tlabel: 'Enable',\n\t\tvalue: true\n\t})\n\t.finish();\n\n/**\n * @param {String} value - for property 'text'\n * @return {String} - update current property value\n */\nlet framerate= 0;\nlet average = [];\nlet frameTimeout= 2; //in ms\nlet framerateStr;\nlet warning = false;\nlet warningthreshold = 20; //threshold for warning\nlet time = 0;\nlet samplerate=30; //average samples\nexport function update(value) {\n    if(!scriptProperties.enable){\n        return \"\";\n    }\n    \n    if(time>frameTimeout/1000){\n    framerate= ((100/(engine.frametime*100))|0);\n    if(engine.frametime==0){\n        return value;\n    }\n    \n    if(warning && framerate>=warningthreshold){\n        return \"\";\n    }\n    \n    average.unshift(framerate);\n    if(average.length>=samplerate){\n        average.length=samplerate;\n        \n    }\n    if(framerate <=warningthreshold){\n        thisLayer.color = new Vec3(255,0,0);\n    }else if( thisLayer.color != new Vec3(0,0,0)){\n        thisLayer.color= new Vec3(0,0,0);\n    }\n    framerateStr = \"FPS: \"+framerate;\n    framerateStr+=\"\\n Avg: \"+((average.reduce((a,b)=>a+b,0)/average.length)|0);\n    \n    time = 0;\n    \n}\n    time+= engine.frametime;\n\n\n\n    return framerateStr;\n}\n/**\n * @param {String} value - for property 'text'\n * @return {String} - update current property value\n */\nexport function init(value) {\n    frameTimeout = scriptProperties.frametimeout;\n    warning = scriptProperties.warning;\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"enable" : true,
+					"frametimeout" : 2000,
+					"warning" : false
+				},
+				"value" : "FRAMERATE"
+			},
+			"verticalalign" : "center",
+			"visible" : false
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 229,
+			"instanceoverride" : 
+			{
+				"colorn" : 
+				{
+					"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2105925974';\n\nimport * as WEColor from 'WEColor';\n\nexport var scriptProperties = createScriptProperties()\n\t.addCheckbox({\n\t\tname: 'audioRainboweffect',\n\t\tlabel: 'Audio Rainbow Effect',\n\t\tvalue: true\n\t})\n\t.addCheckbox({\n\t\tname: 'rainbowEffect',\n\t\tlabel: 'Rainbow Effect',\n\t\tvalue: false\n\t})\n\t.addSlider({\n\t\tname: 'rainbowSpeed',\n\t\tlabel: 'Rainbow Speed',\n\t\tvalue: 1,\n\t\tmin: 0.1,\n\t\tmax: 5,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'rainbowSaturation',\n\t\tlabel: 'Rainbow Saturation',\n\t\tvalue: 1,\n\t\tmin: 0.1,\n\t\tmax: 10,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'rainbowBrightness',\n\t\tlabel: 'Rainbow Brightness',\n\t\tvalue: 1,\n\t\tmin: 0.1,\n\t\tmax: 10,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'audioSourcefrequency',\n\t\tlabel: 'Audio Source Frequency (Lower values for bass, higher for treble.) ',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.finish();\n\n//let rainbowSpeed = 1;\n//let rainbowSaturation = 1;\n//let rainbowBrightness = 1;\nlet frequencyResolution = 16; // Must be 16, 32 or 64 per channel.\n//let sourceFrequency = 0; // Must be smaller than frequencyResolution. Lower values for bass, higher for treble.\nlet smoothingRate = 11;\nlet audioBuffer = engine.registerAudioBuffers(frequencyResolution);\nvar smoothValue = 0;\n\n\n/**\n * @param {Vec3} value\n */\nexport function update(value) {\n\tif (scriptProperties.rainbowEffect == true) {\n\tvalue = WEColor.hsv2rgb({\n\t\tx: Date.now() / 2000 * scriptProperties.rainbowSpeed % 1,\n\t\ty: scriptProperties.rainbowSaturation,\n\t\tz: scriptProperties.rainbowBrightness\n\t});\n}\nlet audioDelta = audioBuffer.average[scriptProperties.audioSourcefrequency] - smoothValue;\n\tif (scriptProperties.audioRainboweffect == true) {\n\tsmoothValue += audioDelta * engine.frametime * smoothingRate;\n\tsmoothValue = Math.min(1.0, smoothValue);\n\tvalue = WEColor.hsv2rgb({\n\t\tx: smoothValue,\n\t\ty: scriptProperties.rainbowSaturation,\n\t\tz: scriptProperties.rainbowBrightness\n\t});\n\t}\n\treturn value;\n}\n",
+					"scriptproperties" : 
+					{
+						"audioRainboweffect" : true,
+						"audioSourcefrequency" : 3,
+						"rainbowBrightness" : 10,
+						"rainbowEffect" : false,
+						"rainbowSaturation" : 1,
+						"rainbowSpeed" : 0.1
+					},
+					"value" : "0.99216 0.97451 0.69804"
+				},
+				"count" : 100.0,
+				"id" : 231,
+				"lifetime" : 2.0,
+				"rate" : 1.61,
+				"size" : 0.50999999,
+				"speed" : 0.28999999
+			},
+			"locktransforms" : false,
+			"name" : "Glitter",
+			"origin" : "600.00000 337.50000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/workshop/2257234152/presets/dust_motes_0.json",
+			"scale" : "5.00000 5.00000 10.00000",
+			"visible" : 
+			{
+				"script" : "'use strict';\nfunction toggleLayer() {\nif (glitterenable) {\n// disable layer\ncanvas.style.display = \"none\";\nglitterenable = false;\n} else {\n// enable layer\ncanvas.style.display = \"block\";\nglitterenable = true;\n}\n}\n",
+				"user" : "glitterenable",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "topleft",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 1.57080",
+			"brightness" : 
+			{
+				"user" : "hdr",
+				"value" : 1.3
+			},
+			"color" : "0.33333 0.33333 0.33333",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/workshop/2903433643/shift_hue/effect.json",
+					"id" : 239,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"Speed" : 1
+							},
+							"id" : 240
+						}
+					],
+					"visible" : false
+				},
+				{
+					"file" : "effects/workshop/2903433643/psyhue/effect.json",
+					"id" : 241,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"DISABLEFLOWMAP" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"1" : 
+								{
+									"user" : "newproperty12",
+									"value" : 0.89999998
+								},
+								"2" : 1,
+								"phasescale" : 2.0,
+								"speed" : 1.0,
+								"strength" : 1.0
+							},
+							"id" : 242
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 236,
+			"image" : "models/workshop/2903433643/solid_instance_model_0b2201c4.json",
+			"instance" : 
+			{
+				"combos" : 
+				{
+					"version" : 2
+				},
+				"id" : 237,
+				"textures" : [ "workshop/2903433643/r_linear_v" ]
+			},
+			"ledsource" : true,
+			"locktransforms" : false,
+			"name" : "Rainbow Bar",
+			"origin" : 
+			{
+				"user" : "rainbowbarheight",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.10306 4.68288 1.00000",
+			"size" : "256.00000 256.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "newproperty11",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 256,
+			"instanceoverride" : null,
+			"locktransforms" : false,
+			"name" : "zzz",
+			"origin" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2097549174';\n\n/**\n * @param {Vec3} value (for property 'origin')\n */\nexport function update(value) {\n\tvalue.x = thisScene.getLayer('cursor').origin.x -0;\n\tvalue.y = thisScene.getLayer('cursor').origin.y -0;\n\treturn value;\n}\n\n",
+				"value" : "615.50781 347.66400 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/workshop/2097549174/zzz.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"config" : 
+			{
+				"passthrough" : true
+			},
+			"copybackground" : true,
+			"id" : 261,
+			"image" : "models/util/composelayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "cursor",
+			"origin" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2097549174';\n\n/**\n * @param {Vec3} value (for property 'origin')\n */\nexport function update(value) {\n \n return input.cursorWorldPosition;\n}\n",
+				"value" : "591.56885 333.28400 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "4.00000 4.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2097549174';\n\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'sleepTimer',\n\t\tlabel: 'Snooze Time',\n\t\tvalue: 7,\n\t\tmin: 0,\n\t\tmax: 100,\n\t\tinteger: false\n\t})\n\t.finish();\n\nlet start;\n\n\n/**\n * @param {Boolean} value (for property 'visible')\n */\nexport function update(value) {\n\tif(((engine.runtime)-start )>=scriptProperties.sleepTimer){\n\t\tthisScene.getLayer('zzz').play(); \n} \n    return value;\n}\n\nexport function cursorMove(event) {\n\tthisScene.getLayer('zzz').stop();\n\tstart = engine.runtime;\n}\n\n\n\n",
+				"scriptproperties" : 
+				{
+					"sleepTimer" : 7
+				},
+				"value" : true
+			}
+		}
+	],
+	"version" : 1
+}

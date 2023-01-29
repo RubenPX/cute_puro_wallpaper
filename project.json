@@ -1,0 +1,169 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Based on: https://steamcommunity.com/sharedfiles/filedetails/?id=2904739230\n\nImage found on: https://e926.net/posts/2651165\n\nThis project will be published in GitHub in future",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"audiofrequency" : 
+			{
+				"fraction" : true,
+				"index" : 1,
+				"max" : 1,
+				"min" : 0,
+				"order" : 101,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "Audio Ring Frequency",
+				"type" : "slider",
+				"value" : 0
+			},
+			"enablechroma" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "Enable Chroma",
+				"type" : "bool",
+				"value" : true
+			},
+			"enablelensdistarsiononbeat" : 
+			{
+				"index" : 6,
+				"order" : 106,
+				"text" : "Lens Beat",
+				"type" : "bool",
+				"value" : false
+			},
+			"enablergbbeat" : 
+			{
+				"index" : 7,
+				"order" : 107,
+				"text" : "RGB Beat",
+				"type" : "bool",
+				"value" : true
+			},
+			"glitterenable" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "Enable Glitter",
+				"type" : "bool",
+				"value" : true
+			},
+			"littlepurospinspeed" : 
+			{
+				"fraction" : true,
+				"index" : 2,
+				"max" : 1,
+				"min" : 0,
+				"order" : 102,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "Little Puro Spin Speed",
+				"type" : "slider",
+				"value" : 0.1
+			},
+			"newproperty" : 
+			{
+				"condition" : "",
+				"index" : 8,
+				"order" : 108,
+				"text" : "Enable Bloom",
+				"type" : "bool",
+				"value" : false
+			},
+			"puroimages" : 
+			{
+				"index" : 10,
+				"options" : 
+				[
+					{
+						"label" : "Puro 1",
+						"value" : "1"
+					},
+					{
+						"label" : "Puro 2",
+						"value" : "2"
+					}
+				],
+				"order" : 110,
+				"text" : "Puro Right",
+				"type" : "combo",
+				"value" : "2"
+			},
+			"puroleft" : 
+			{
+				"index" : 11,
+				"options" : 
+				[
+					{
+						"label" : "Puro 1",
+						"value" : "1"
+					},
+					{
+						"label" : "Puro 2",
+						"value" : "2"
+					}
+				],
+				"order" : 111,
+				"text" : "Puro Left",
+				"type" : "combo",
+				"value" : "1"
+			},
+			"rainbowbarheight" : 
+			{
+				"fraction" : true,
+				"index" : 5,
+				"max" : 25,
+				"min" : -25,
+				"order" : 105,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "Rainbow bar height",
+				"type" : "slider",
+				"value" : 1
+			},
+			"ringcolor" : 
+			{
+				"index" : 9,
+				"order" : 109,
+				"text" : "Ring Color",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"ringresponsivnes" : 
+			{
+				"fraction" : true,
+				"index" : 4,
+				"max" : 25,
+				"min" : 0,
+				"order" : 104,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "Ring Responsivnes",
+				"type" : "slider",
+				"value" : 5
+			},
+			"schemecolor" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.gif",
+	"snapshotformat" : 3,
+	"snapshotoverlay" : "",
+	"tags" : [ "Animal" ],
+	"title" : "Cute Puro Wallpaper (Audio responsive)",
+	"type" : "scene",
+	"version" : 8,
+	"visibility" : "public",
+	"workshopid" : "2914848380",
+	"workshopurl" : "steam://url/CommunityFilePage/2914848380"
+}

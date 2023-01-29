@@ -1,0 +1,18 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2903433643/effects/shift_hue.json",
+		"shaders/workshop/2903433643/effects/shift_hue.frag",
+		"shaders/workshop/2903433643/effects/shift_hue.vert"
+	],
+	"group" : "localeffects",
+	"name" : "Shift Hue",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2903433643/effects/shift_hue.json"
+		}
+	],
+	"replacementkey" : "shift_hue",
+	"version" : 1
+}

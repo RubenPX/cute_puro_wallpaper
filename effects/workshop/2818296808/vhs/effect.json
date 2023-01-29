@@ -1,0 +1,20 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2818296808/effects/vhs.json",
+		"shaders/workshop/2818296808/effects/vhs.frag",
+		"shaders/workshop/2818296808/effects/vhs.vert"
+	],
+	"description" : "ui_editor_effect_vhs_description",
+	"group" : "colorize",
+	"name" : "ui_editor_effect_vhs_title",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2818296808/effects/vhs.json"
+		}
+	],
+	"preview" : "previewvhs/project.json",
+	"replacementkey" : "vhs",
+	"version" : 1
+}

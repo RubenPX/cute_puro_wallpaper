@@ -1,0 +1,18 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2818296808/effects/lens_distorsion.json",
+		"shaders/workshop/2818296808/effects/lens_distorsion.frag",
+		"shaders/workshop/2818296808/effects/lens_distorsion.vert"
+	],
+	"group" : "localeffects",
+	"name" : "Lens distorsion",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2818296808/effects/lens_distorsion.json"
+		}
+	],
+	"replacementkey" : "lens_distorsion",
+	"version" : 1
+}
