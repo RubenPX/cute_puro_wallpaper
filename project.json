@@ -1,6 +1,6 @@
 {
 	"contentrating" : "Everyone",
-	"description" : "Based on: https://steamcommunity.com/sharedfiles/filedetails/?id=2904739230\n\nImage found on: https://e926.net/posts/2651165\n\nThis project will be published in GitHub in future",
+	"description" : "Based on: https://steamcommunity.com/sharedfiles/filedetails/?id=2904739230\r\n\r\nImages found on:\r\n\r\n- https://e926.net/posts/2651165\r\n- https://e926.net/posts/1582056\r\n\r\nGithub Project: https://github.com/RubenPX/cute_puro_wallpaper",
 	"file" : "scene.json",
 	"general" : 
 	{
@@ -75,25 +75,6 @@
 			},
 			"puroimages" : 
 			{
-				"index" : 10,
-				"options" : 
-				[
-					{
-						"label" : "Puro 1",
-						"value" : "1"
-					},
-					{
-						"label" : "Puro 2",
-						"value" : "2"
-					}
-				],
-				"order" : 110,
-				"text" : "Puro Right",
-				"type" : "combo",
-				"value" : "2"
-			},
-			"puroleft" : 
-			{
 				"index" : 11,
 				"options" : 
 				[
@@ -107,6 +88,25 @@
 					}
 				],
 				"order" : 111,
+				"text" : "Puro Right",
+				"type" : "combo",
+				"value" : "2"
+			},
+			"puroleft" : 
+			{
+				"index" : 10,
+				"options" : 
+				[
+					{
+						"label" : "Puro 1",
+						"value" : "1"
+					},
+					{
+						"label" : "Puro 2",
+						"value" : "2"
+					}
+				],
+				"order" : 110,
 				"text" : "Puro Left",
 				"type" : "combo",
 				"value" : "1"
@@ -162,7 +162,7 @@
 	"tags" : [ "Animal" ],
 	"title" : "Cute Puro Wallpaper (Audio responsive)",
 	"type" : "scene",
-	"version" : 8,
+	"version" : 9,
 	"visibility" : "public",
 	"workshopid" : "2914848380",
 	"workshopurl" : "steam://url/CommunityFilePage/2914848380"

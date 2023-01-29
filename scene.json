@@ -58,22 +58,14 @@
 			"image" : "models/55f552bce1b1ed0ec27fc8f5822277c5.json",
 			"ledsource" : false,
 			"locktransforms" : false,
-			"name" : "--- Puro 1 ---",
+			"name" : ">> --- Puro 1 --- <<",
 			"origin" : "222.44693 252.76797 0.00000",
 			"parallaxDepth" : "1.00000 1.00000",
 			"perspective" : false,
 			"scale" : "0.00000 0.00000 1.00000",
 			"size" : "1476.00000 1509.00000",
 			"solid" : true,
-			"visible" : 
-			{
-				"user" : 
-				{
-					"condition" : "1",
-					"name" : "puroleft"
-				},
-				"value" : true
-			}
+			"visible" : false
 		},
 		{
 			"alignment" : "center",
@@ -223,14 +215,14 @@
 			"image" : "models/2HCAAOU.json",
 			"ledsource" : false,
 			"locktransforms" : false,
-			"name" : "--- Puro 2 ---",
+			"name" : ">> --- Puro 2 --- <<",
 			"origin" : "600.00000 337.50000 0.00000",
 			"parallaxDepth" : "1.00000 1.00000",
 			"perspective" : false,
 			"scale" : "0.00000 0.00000 1.00000",
 			"size" : "1200.00000 675.00000",
 			"solid" : true,
-			"visible" : true
+			"visible" : false
 		},
 		{
 			"alignment" : "center",
@@ -380,14 +372,14 @@
 			"image" : "models/util/solidlayer.json",
 			"ledsource" : false,
 			"locktransforms" : false,
-			"name" : "--- Center mini puro ---",
+			"name" : ">> --- Ring puro --- <<",
 			"origin" : "600.00000 337.50000 0.00000",
 			"parallaxDepth" : "1.00000 1.00000",
 			"perspective" : false,
 			"scale" : "1.00000 1.00000 1.00000",
 			"size" : "0.00000 0.00000",
 			"solid" : true,
-			"visible" : true
+			"visible" : false
 		},
 		{
 			"alignment" : "center",
@@ -731,14 +723,14 @@
 			"image" : "models/util/solidlayer.json",
 			"ledsource" : false,
 			"locktransforms" : false,
-			"name" : "--- Others ---",
+			"name" : ">> --- Others --- <<",
 			"origin" : "600.00000 337.50000 0.00000",
 			"parallaxDepth" : "1.00000 1.00000",
 			"perspective" : false,
 			"scale" : "1.00000 1.00000 1.00000",
 			"size" : "0.00000 0.00000",
 			"solid" : true,
-			"visible" : true
+			"visible" : false
 		},
 		{
 			"angles" : "0.00000 0.00000 0.00000",
