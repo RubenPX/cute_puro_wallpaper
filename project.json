@@ -6,25 +6,88 @@
 	{
 		"properties" : 
 		{
+			"audiobarscolor" : 
+			{
+				"condition" : "settingscategory.value == \"rings\"",
+				"index" : 11,
+				"order" : 111,
+				"text" : "Bars Color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
 			"audiofrequency" : 
 			{
 				"condition" : "settingscategory.value == \"rings\"",
 				"fraction" : true,
 				"index" : 8,
-				"max" : 1,
+				"max" : 15,
 				"min" : 0,
 				"order" : 108,
-				"precision" : 2,
-				"step" : 0.1,
+				"precision" : 1,
+				"step" : 1,
 				"text" : "Ring Audio Frequency",
 				"type" : "slider",
 				"value" : 0
 			},
+			"barblurring" : 
+			{
+				"condition" : "settingscategory.value == \"rings\"",
+				"fraction" : true,
+				"index" : 14,
+				"max" : 1,
+				"min" : 0,
+				"order" : 114,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "Bars blurring",
+				"type" : "slider",
+				"value" : 0.1
+			},
+			"barscount" : 
+			{
+				"condition" : "settingscategory.value == \"rings\"",
+				"fraction" : false,
+				"index" : 12,
+				"max" : 100,
+				"min" : 0,
+				"order" : 112,
+				"text" : "Bars count",
+				"type" : "slider",
+				"value" : 25
+			},
+			"barsopacity" : 
+			{
+				"condition" : "settingscategory.value == \"rings\"",
+				"fraction" : true,
+				"index" : 15,
+				"max" : 1,
+				"min" : 0,
+				"order" : 115,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "Bars opacity",
+				"type" : "slider",
+				"value" : 1
+			},
+			"barsthin" : 
+			{
+				"condition" : "settingscategory.value == \"rings\"",
+				"fraction" : true,
+				"index" : 13,
+				"max" : 1,
+				"min" : 0,
+				"order" : 113,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "Bars weight",
+				"type" : "slider",
+				"value" : 0.5
+			},
 			"enablechroma" : 
 			{
 				"condition" : "settingscategory.value == \"other\"",
-				"index" : 11,
-				"order" : 111,
+				"index" : 16,
+				"order" : 116,
 				"text" : "Enable Chroma",
 				"type" : "bool",
 				"value" : true
@@ -119,17 +182,40 @@
 				"type" : "combo",
 				"value" : "1"
 			},
+			"rainbowbar" : 
+			{
+				"condition" : "settingscategory.value == \"other\"",
+				"index" : 17,
+				"order" : 117,
+				"text" : "Rainbow bar",
+				"type" : "bool",
+				"value" : true
+			},
 			"rainbowbarheight" : 
 			{
 				"condition" : "settingscategory.value == \"other\"",
 				"fraction" : true,
-				"index" : 12,
+				"index" : 18,
 				"max" : 25,
 				"min" : -25,
-				"order" : 112,
+				"order" : 118,
 				"precision" : 2,
 				"step" : 0.1,
 				"text" : "Rainbow bar height",
+				"type" : "slider",
+				"value" : 1
+			},
+			"rainbowbarspeed" : 
+			{
+				"condition" : "settingscategory.value == \"other\"",
+				"fraction" : true,
+				"index" : 19,
+				"max" : 2,
+				"min" : 0,
+				"order" : 119,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "Rainbow bar speed",
 				"type" : "slider",
 				"value" : 1
 			},
@@ -178,7 +264,7 @@
 						"value" : "scr_effects"
 					},
 					{
-						"label" : "Rings",
+						"label" : "Ring & Bars",
 						"value" : "rings"
 					},
 					{
@@ -200,7 +286,7 @@
 	"tags" : [ "Animal" ],
 	"title" : "Cute Puro Wallpaper (Audio responsive)",
 	"type" : "scene",
-	"version" : 9,
+	"version" : 13,
 	"visibility" : "public",
 	"workshopid" : "2914848380",
 	"workshopurl" : "steam://url/CommunityFilePage/2914848380"
