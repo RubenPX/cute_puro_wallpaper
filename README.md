@@ -10,10 +10,6 @@ Based on: https://steamcommunity.com/sharedfiles/filedetails/?id=2904739230
 
 </div>
 
-
-
-
-
 Images found on:
 
 - https://e926.net/posts/2651165
@@ -24,3 +20,7 @@ Images found on:
 - open wallpaper engine program folder
 - Go to \projects\myprojects
 - Clone git repo in this folder (This will create a new folder named cute_puro_wallpaper)
+
+## What settings are avalible
+
+<img src="settings.png">
